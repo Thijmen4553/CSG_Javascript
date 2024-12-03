@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(foto1);
+  background(zand);
     if (spel.actief && !spel.levelGehaald) {
         spel.update();
     }
