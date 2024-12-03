@@ -69,7 +69,7 @@ class Spacers {
     textSize(30);
     var marge = 100;
     rect(marge,marge,canvas.width - 2 * marge,canvas.height - 2 * marge);
-    fill(255);
+    
     text(" Dit is Level "+this.level,marge,marge,canvas.width - 2 * marge,canvas.height - 2 * marge);   
     pop();
   }
@@ -114,7 +114,7 @@ class Spacers {
   }    
   
   teken() {
-    background('navy');
+    background('green');
     if (!this.actief) {
         if (this.afgelopen) {
             this.eindScherm();
