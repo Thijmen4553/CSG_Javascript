@@ -114,7 +114,7 @@ class Spacers {
   }    
   
   teken() {
-    background('green');
+    image(zand);
     if (!this.actief) {
         if (this.afgelopen) {
             this.eindScherm();
