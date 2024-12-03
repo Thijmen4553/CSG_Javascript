@@ -1,6 +1,6 @@
 function preload() {
     achtergrondmuziek = loadSound("sounds/bensound-groovyhiphop.mp3");
-    foto1 = loadImage("images/achtergrondzand.jpg");
+    zand = loadImage("images/achtergrondzand.jpg");
 }
 
 function windowResized() {
