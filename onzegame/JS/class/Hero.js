@@ -25,7 +25,7 @@ class Hero {
     if(keyIsDown(RIGHT_ARROW)) {
         this.x += this.v;
     }       
-  
+ 
   }
 
   teken() {
